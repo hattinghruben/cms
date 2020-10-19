@@ -1,11 +1,11 @@
-import React from "react";
-import AppBreadcrumbs from "./views/components/appBreadcrumbs";
-import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
-import SentItems from "./views/pages/sentItems";
-import Stats from "./views/stats";
-import EmailItem from "./views/emailItem";
-import EmailGroup from "./views/emailGroup";
-import EmailDashboard from "./views/emailDashboard";
+import React from 'react';
+import AppBreadcrumbs from './views/components/appBreadcrumbs';
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import SentItems from './views/pages/sentItems';
+import GroupEmailEvents from './views/pages/groupEmailEvents';
+import Email from './views/pages/email';
+import GroupEmail from './views/pages/groupEmail';
+import EmailDashboard from './views/pages/emailDashboard';
 
 export default class App extends React.Component {
     render() {
@@ -14,10 +14,10 @@ export default class App extends React.Component {
                 <AppBreadcrumbs/>
                 <Router>
                     <Switch>
-                        <Route path="/emaildashboard/sentitems" component={SentItems}/>
-                        <Route path="/emaildashboard/sentitems/emailitem" component={EmailItem} />
-                        <Route path="/emaildashboard/sentitems/emailgroup" component={EmailGroup} />
-                        <Route path="/emaildashboard/sentitems/emailgroup/stats:emailid" component={Stats} />
+                        <Route path="/emaildashboard/sentitems/view" component={SentItems}/>
+                        <Route path="/emaildashboard/sentitems/email/view" component={Email} />
+                        <Route path="/emaildashboard/sentitems/groupemail/view" component={GroupEmail} />
+                        <Route path="/emaildashboard/sentitems/groupemail/events" component={GroupEmailEvents} />
                     </Switch>
                 </Router>
             </div>
