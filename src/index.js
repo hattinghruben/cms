@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './App.scss'
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter as Router} from "react-router-dom";
-import Routes from "./routes";
+import App from './app';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-            <Router>
-                <Routes />
-            </Router>,
+            <div>
+                <App />
+            </div>,
     document.getElementById('root')
 );
 

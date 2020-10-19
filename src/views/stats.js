@@ -1,8 +1,8 @@
 import React from 'react'
-const Home = ({ children }) => (
+const Stats = ({ children }) => (
     <div>
-        <h2>Home</h2>
+        <h2>Stats</h2>
         <div>{children}</div>
     </div>
 );
-export default Home
+export default Stats
