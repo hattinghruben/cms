@@ -1,4 +1,7 @@
 $headerColor: #6C3483;
+$darkGreen: #298c08;
+$lightGreen: #49db18;
+$gold: #cfcf63;
 
 .App {
   text-align: center;
@@ -7,6 +10,25 @@ $headerColor: #6C3483;
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.small-circle {
+color: $darkGreen;
+}
+
+.gold-text {
+  color: $gold;
+}
+.small-email-text {
+  color: $lightGreen;
+}
+
+.rounded-border {
+  border-radius: 25px;
+  border: 2px solid $gold;
+  padding: 20px;
+  width: 200px;
+  height: 15px;
 }
 
 ol {
