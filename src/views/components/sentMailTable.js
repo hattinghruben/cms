@@ -9,13 +9,13 @@ export default class SentMailTable extends React.Component {
             data: [
                 {
                     email: {
-                        subject: 'Beqachwood',
+                        subject: 'Beachwood',
                         numberOfRecievers: 11,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                             'wood@gmail.com',
                             'wood@gmail.com',
@@ -30,179 +30,179 @@ export default class SentMailTable extends React.Component {
                 },
                 {
                     email: {
-                        subject: 'testies',
+                        subject: 'Test Course',
                         numberOfRecievers: 1,
                         to: [
                             'music@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '22/12/2020', openRate: '43%'
+                    dateSent: '22/12/2020', openRate: '11%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '45%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '98%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'fake CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '1%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt Brad CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '90%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '5%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '17%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '33%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '21%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '51%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '88%'
                 },
                 {
                     email: {
-                        subject: 'mt poes CC',
+                        subject: 'mt golf CC',
                         numberOfRecievers: 5,
                         to: [
                             'music@gmail.com',
                             'glad@gmail.com',
-                            'knob@gmail.com',
-                            'poes@gmail.com',
+                            'brad@gmail.com',
+                            'bruce@gmail.com',
                             'wood@gmail.com',
                         ],
                         from: 'sender@golfplayed.com'
                     },
-                    dateSent: '01/02/2018', openRate: '43%'
+                    dateSent: '01/02/2018', openRate: '55%'
                 },
             ]
         }
@@ -246,7 +246,7 @@ export default class SentMailTable extends React.Component {
         return (
             <div>
                 <Table>
-                    <thead className="thead-dark">
+                    <thead className="thead-light">
                     <tr>
                         <th>EMAILS</th>
                         <th>SENT DATE</th>
