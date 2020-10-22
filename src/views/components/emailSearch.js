@@ -10,14 +10,16 @@ export default class EmailSearchBar extends React.Component {
                 <div className="row m-2">
                     <div className="col-xs-8 col-xs-offset-2">
                         <div className="input-group">
-                            <div className="input-group-btn search-panel">
-                                <FilterDropdown />
+                            <div className="d-flex row">
+                                <FilterDropdown class="col-1"/>
                             </div>
-                            <input type="hidden" name="search_param" value="all" id="search_param"/>
-                            <input type="text" className="rounded-border" name="x" placeholder="Search term..."/>
-                            <button className="btn btn-default">
-                                <Search className="gold-text"/>
-                            </button>
+                            <div>
+                                <input type="hidden" name="search_param" value="all" id="search_param"/>
+                                <input type="text" className="ml-3 rounded-border" name="x" placeholder="Search term..."/>
+                                <button className="btn btn-default">
+                                    <Search className="gold-text"/>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
