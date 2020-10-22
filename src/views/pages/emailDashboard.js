@@ -4,7 +4,9 @@ export default class EmailDashboard extends React.Component {
     render() {
         return (
             <div>
-                "EmailDashboard Page"
+                <div className="jumbotron">
+                    <p className="text-center">This page is currently under developement.</p>
+                </div>
             </div>
         )
     }

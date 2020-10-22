@@ -4,7 +4,9 @@ export default class GroupEmail extends React.Component {
     render() {
         return (
             <div>
-                "GroupEmail Page"
+                <div className="jumbotron">
+                    <p className="text-center">This page is currently under developement.</p>
+                </div>
             </div>
         )
     }
