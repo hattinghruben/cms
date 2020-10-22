@@ -2,6 +2,8 @@ $headerColor: #6C3483;
 $darkGreen: #298c08;
 $lightGreen: #49db18;
 $gold: #BFB55F;
+$white: #ffffff;
+$blue: #4968d0;
 
 .App {
   text-align: center;
@@ -19,6 +21,15 @@ color: $darkGreen;
 .gold-text {
   color: $gold;
 }
+
+.blue {
+  color: $blue;
+}
+
+.white {
+  color: $white;
+}
+
 .small-email-text {
   color: $lightGreen;
 }
@@ -35,6 +46,36 @@ ol {
   list-style: none;
   display: flex;
   align-items: center;
+}
+
+.select {
+  position: relative;
+  font-family: Arial;
+}
+
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
 }
 
 .breadcrumb-separator {
