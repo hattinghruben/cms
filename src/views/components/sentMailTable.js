@@ -212,7 +212,8 @@ export default class SentMailTable extends React.Component {
         return this.state.data.map((item, index) => {
             const key = index;
             const subject = item.email.subject;
-            const numberOfRecievers = item.email.numberOfRecievers > 1 ? `- (${item.email.numberOfRecievers} emails)` : `- (${item.email.numberOfRecievers} email)`;
+            const receivers = item.email.numberOfRecievers;
+            const numberOfRecievers = receivers > 1 ? `- (${receivers} emails)` : `- (${receivers} email)`;
             const toArray = item.email.to;
             const to = toArray.length > 1 ? `${toArray[0]} and ${toArray.length - 1} others...` : toArray[0];
             const from = item.email.from;
@@ -225,12 +226,12 @@ export default class SentMailTable extends React.Component {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-12 gold-text">
-                                    {subject} {numberOfRecievers}
+                                    <a className="gold-text" href={receivers > 1 ? '/emaildashboard/sentitems/groupemail/view' : '/emaildashboard/sentitems/email/view'}>{subject}</a> {numberOfRecievers}
                                 </div>
                             </div>
                             <div className="">
                                 <div className="col-12 p-0">
-                                    <p><CircleFill class="small-circle"></CircleFill><small><b class="small-email-text p-2">Sent to - </b>{to}</small> <small><b class="small-email-text"> from</b> {from}</small></p>
+                                    <p><CircleFill className="small-circle"></CircleFill><small><b className="small-email-text p-2">Sent to - </b>{to}</small> <small><b className="small-email-text"> from</b> {from}</small></p>
                                 </div>
                             </div>
                         </div>
