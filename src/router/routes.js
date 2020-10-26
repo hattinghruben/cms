@@ -1,8 +1,8 @@
 
 export const routes = {
-    '/emaildashboard' : 'EmailDashboard',
-    '/emaildashboard/sentitems': 'SentItems',
-    '/emaildashboard/sentitems/groupemail': 'GroupEmail',
+    '/emaildashboard' : 'Email Dashboard',
+    '/emaildashboard/sentitems': 'Sent Items',
+    '/emaildashboard/sentitems/groupemail': 'Group Email',
     '/emaildashboard/sentitems/email': 'Email',
-    '/emaildashboard/sentitems/groupemail/events': 'GroupEmailEvents'
+    '/emaildashboard/sentitems/groupemail/events': 'Group Email Events'
 };
