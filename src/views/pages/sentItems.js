@@ -1,16 +1,16 @@
 import React from 'react'
 import SentMailTable from '../components/sentMailTable'
-import EmailSearchBar from "../components/emailSearch";
+import NavigationBar from "../components/navigationBar";
 
 export default class SentItems extends React.Component {
     render() {
         return (
-            <div>
-                <EmailSearchBar />
+            <React.Fragment>
+                <NavigationBar/>
                 <div>
                     <SentMailTable/>
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }
