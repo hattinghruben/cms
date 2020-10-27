@@ -1,15 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './App.scss'
-import './index.scss';
-import * as serviceWorker from './serviceWorker';
-import App from './app';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import dotenv from 'dotenv';
 
-ReactDOM.render(
-            <div>
-                <App />
-            </div>,
+import React from 'react';
+
+import {render} from 'react-dom';
+import {Provider} from 'react-redux';
+import store from './store/index';
+import * as serviceWorker from './serviceWorker';
+
+import App from './app';
+
+import './index.scss';
+import './App.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+dotenv.config();
+
+render(
+    <Provider store={store}>
+        <App/>
+    </Provider>,
     document.getElementById('root')
 );
 
