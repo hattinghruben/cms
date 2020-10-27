@@ -231,7 +231,7 @@ export default class SentMailTable extends React.Component {
                             </div>
                             <div className="">
                                 <div className="col-12 p-0">
-                                    <p><CircleFill className="small-circle"></CircleFill><small><b className="small-email-text p-2">Sent to - </b>{to}</small> <small><b className="small-email-text"> from</b> {from}</small></p>
+                                    <p><CircleFill className="dark-green"></CircleFill><small><b className="small-email-text p-2">Sent to - </b>{to}</small> <small><b className="small-email-text"> from</b> {from}</small></p>
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ import GroupEmail from './views/pages/groupEmail';
 export default class App extends React.Component {
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <AppBreadcrumbs/>
                 <Router>
                     <Switch>
@@ -19,7 +19,7 @@ export default class App extends React.Component {
                         <Route path="/emaildashboard/sentitems/groupemail/events" component={GroupEmailEvents} />
                     </Switch>
                 </Router>
-            </div>
+            </React.Fragment>
         );
     }
 }
