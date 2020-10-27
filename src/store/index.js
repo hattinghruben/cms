@@ -4,12 +4,12 @@ import {
 
 import {combineReducers} from 'redux';
 
-import outboundMails from './slices/outboundMails';
+import outboundMailsSlice from './slices/outboundMails';
 
-const outboundMailsReducer = outboundMails.reducer;
+const outboundMails = outboundMailsSlice.reducer;
 
 const reducer = combineReducers({
-    outboundMailsReducer
+    outboundMails
 });
 
 const store = configureStore({

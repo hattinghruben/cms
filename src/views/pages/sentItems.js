@@ -1,30 +1,16 @@
-import React, {useEffect} from 'react';
-import { useDispatch} from 'react-redux';
+import React from 'react';
+import {Row} from 'react-bootstrap';
 
 import SentMailTable from '../components/sentMailTable';
 import NavigationBar from "../components/navigationBar";
-import {getOutboundMails} from '../../store/actions/getOutboundMails';
 
 export default function SentItems() {
-    const dispatch = useDispatch();
-    let mails, isLoading = true, error;
-
-    useEffect(() => {
-        dispatch(getOutboundMails());
-    });
-
     return (
         <React.Fragment>
             <NavigationBar/>
-            <div>
-                {!isLoading ? !error ? (
-                    <SentMailTable mails={mails}/>
-                ) : (
-                    <div>ERROR: {{error}}</div>
-                ) : (
-                    <div>Loading...</div>
-                )}
-            </div>
+            <Row>
+                <SentMailTable/>
+            </Row>
         </React.Fragment>
     )
 }

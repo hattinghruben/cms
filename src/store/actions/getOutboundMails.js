@@ -1,7 +1,7 @@
 import {api} from '../../api';
-import outboundMails from '../slices/outboundMails';
+import outboundMailsSlice from '../slices/outboundMails';
 
-const {outboundMailsSuccess} = outboundMails.actions;
+const {outboundMailsSuccess} = outboundMailsSlice.actions;
 
 export const getOutboundMails = () => async dispatch => {
     try {

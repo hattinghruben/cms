@@ -2,11 +2,11 @@ import {createSlice} from '@reduxjs/toolkit';
 
 const outboundMailsInitialState = {
     mails: [],
-    isLoading: false,
+    isLoading: true,
     error: false
 };
 
-const outboundMails = createSlice({
+const outboundMailsSlice = createSlice({
     name: 'outboundMails',
     initialState: outboundMailsInitialState,
     reducers: {
@@ -24,4 +24,4 @@ const outboundMails = createSlice({
     },
 });
 
-export default outboundMails;
+export default outboundMailsSlice;
