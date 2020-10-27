@@ -7,9 +7,9 @@ import App from './app';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-            <div>
+            <React.Fragment>
                 <App />
-            </div>,
+            </React.Fragment>,
     document.getElementById('root')
 );
 
