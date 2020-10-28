@@ -1,13 +1,14 @@
 import React from 'react'
+import NavigationBar from "../components/navigationBar";
+import GroupEmailStats from "../components/groupEmailStats";
 
 export default class GroupEmail extends React.Component {
     render() {
         return (
-            <div>
-                <div className="jumbotron">
-                    <p className="text-center">This page is currently under developement.</p>
-                </div>
-            </div>
+            <React.Fragment>
+                    <NavigationBar />
+                    <GroupEmailStats/>
+            </React.Fragment>
         )
     }
 }

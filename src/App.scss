@@ -34,6 +34,10 @@ color: $darkGreen;
   color: $lightGreen;
 }
 
+.progress-bar {
+  background-color: $gold !important;
+}
+
 .rounded-border {
   border-radius: 25px;
   border: 2px solid $gold;
